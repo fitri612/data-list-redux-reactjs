@@ -6,6 +6,9 @@ import Cart from "./component/Cart";
 function App() {
   return (
     <Provider store={store}>
+      <div className="App">
+        <h1>Tugas Pertemuan 10</h1>
+      </div>
       <Cart />
     </Provider>
   );
